@@ -1,0 +1,22 @@
+{
+  "name": "codemirror-hashare",
+  "id": "codemirror-hashare",
+  "version": "0.0.1",
+  "description": "Hash based sharing plugin for codemirror",
+  "keywords": [ "codemirror-hashare", "codemirror", "share", "plugin" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/codemirror-hashare",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/codemirror-hashare.git",
+    "web": "https://github.com/Gozala/codemirror-hashare"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/codemirror-hashare/issues/"
+  },
+  "main": "./core.js",
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "https://github.com/Gozala/codemirror-hashare/License.md"
+  }]
+}
