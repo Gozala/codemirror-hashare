@@ -11,13 +11,11 @@ function plugin(CodeMirror) {
     if (value) {
       var saving = false
       editor[save] = function(event) {
-        saving = true
         location.hash = encodeURIComponent(editor.getValue())
-        saving = false
       }
       editor[load] = function() {
-        var code = window.location.hash.substr(1)
-        if (code && !saving) editor.setValue(decodeURIComponent(code))
+        var value = decodeURIComponent(window.location.hash.substr(1))
+        if (value && value !== editor.getValue()) editor.setValue(value)
       }
       window.addEventListener("blur", editor[save], false)
       window.addEventListener("hashchange", editor[load], false)

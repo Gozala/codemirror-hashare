@@ -1,7 +1,7 @@
 {
   "name": "codemirror-hashare",
   "id": "codemirror-hashare",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hash based sharing plugin for codemirror",
   "keywords": [ "codemirror-hashare", "codemirror", "share", "plugin" ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
